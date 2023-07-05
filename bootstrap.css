@@ -1,0 +1,139 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+ 
+  font-family: 'Montserrat', sans-serif;
+
+}
+/* Header Part Here */
+header{
+    background-color: #87509c;
+    
+}
+#nev-under-part{
+  background-color: #87509c;
+  
+}
+.nav-item a:hover{
+  background-color: #5e509cea;
+}
+.header-btn{
+  background-color: #EB7D4B;
+}
+.header-btn:hover{
+  background-color: #5433cc;
+}
+.heading{
+ font-size: 35px;
+}
+p{
+  font-size: 17px;
+  padding:2px;
+}
+
+.underline{
+  border-bottom: 5px solid #00000034;
+  width: 8%;
+  margin: 20px auto;
+
+}
+/* Header Part End */
+
+/* Services Part Here */
+ #services{
+    background-color: #00CC99;
+}
+/* Services Part End */
+
+/* Team Part Here */
+#team{
+    background-color: rgba(27, 136, 136, 0.521) 255 255;
+}
+
+.team-icon-box{
+  margin: 20px 0px;
+}
+/* Team Part End */
+
+/* Skills Part Here */
+ #skills{
+    background-color: #ffffffd3;
+}
+/* Skills Part End */
+
+/* Portfolio Part Here */
+#Portfolio{
+    background-color:#FFCC99;
+    
+}
+.portfolio-btn li{
+ display: inline;
+ height: 5px;
+ padding: 0px 2px;
+ font-size: 13px;
+}
+ .portfolio-btn li:hover{
+  background-color: #CC3399;
+  display: inline;
+  
+  padding: 0px 2px;
+  }
+   .btn{
+    background-color:#00CC99 ;
+ 
+  } 
+   /* Portfolio Part End */
+
+   /* Aboutus Part Here */
+  #aboutus{
+    background-color: #CC3399;
+}
+/* Aboutus Part End */
+
+/* Contouch Part Here */
+ #Contouch {
+  background-color: #273a71;
+  color: white;
+  border-color: #273a71;
+} 
+.touch-btn{
+ background-color: #33CCFF;
+ padding: 15px;
+ 
+}
+.touch-btn:hover{
+  background-color: #4bff33;
+  padding: 15px;
+  
+ }
+.form-control{
+  background: #344b8e; 
+  padding: 5px ;
+  color: white;
+}
+ .send{
+  background-color: #4700cc;
+}
+/* Contouch Part End */
+
+   /* Footer Open */
+  .footer-btn{
+    background: #344b8e;
+    color: #ffff;
+    text-align: center; 
+  }
+
+  #footer{
+    background-color:#344b8e;
+  }
+ 
+   @media (max-width:576px) {
+    p{
+      font-size: 17px;
+      
+    }
+    
+   }
